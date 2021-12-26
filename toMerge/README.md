@@ -1,0 +1,1 @@
+Place the videos you want to merge here, without changing their default name.

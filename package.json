@@ -1,0 +1,11 @@
+{
+  "name": "icsee-merge",
+  "version": "1.0.0",
+  "description": "A script used to automatically merge multiple continuous videos downloaded from the iCSee monitoring security software.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "imawa",
+  "license": "ISC"
+}

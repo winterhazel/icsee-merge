@@ -61,7 +61,7 @@ function merge(directory) {
     let videos = getVideos(directory);
 
     let videoList = "";
-    videos.forEach(video => videoList += `file './${video.replace("\\", "/")}'\n`);
+    videos.forEach(video => videoList += `file '${video.replace("\\", "/").split("\\").pop()}'\n`);
 
     fs.writeFileSync(`${directory}\\list.txt`, videoList);
     if (fs.existsSync(`${pathMerged}\\${dirName}.mp4`)) {
